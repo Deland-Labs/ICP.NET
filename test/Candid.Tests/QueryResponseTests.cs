@@ -11,6 +11,7 @@ using EdjCase.ICP.Candid.Models.Types;
 using EdjCase.ICP.Candid.Models.Values;
 using EdjCase.ICP.Candid.Utilities;
 
+
 public class QueryResponseTests
 {
 	[Fact]
@@ -489,4 +490,4 @@ public class CandidTransaction
 		}
 
 		public static CandidService OpaqueReference() => new CandidService();
-	}
+}
